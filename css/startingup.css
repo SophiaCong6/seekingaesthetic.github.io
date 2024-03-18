@@ -1,0 +1,39 @@
+.startingup-main {
+    padding: 20px;
+    text-align: center;
+}
+/*padding is 10px all around, text has center alignment*/
+.startingup-main p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+/*bottom of the margin has 20px, font size is 18px, height of the line is 1.6*/
+.startingup-main img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+}
+/*max width is 100%, height is auto, border radius is 10px all around, bottom of the margin is 20px*/
+.startingup-main hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*top and bottom of the margin is 20px*/
+.startingup-article {
+    text-align: left;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    padding: 20px;
+}
+/*text alignment is left, background color is white, borer radius is 10px all around, and padding is 20px all around*/
+.startingup-article p {
+    margin-bottom: 20px;
+}
+/*bottom of the margin has 20px*/
+.startingup-article h2 {
+    margin-bottom: 20px;
+    color: #613585;
+}
+/*the bottom of the margin is 20px and the color is purple*/

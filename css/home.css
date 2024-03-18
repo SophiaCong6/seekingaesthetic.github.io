@@ -1,0 +1,78 @@
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+/* padding is 20px with a center alignment*/
+.article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #e2e2e2; 
+  border-radius: 10px; 
+  padding: 20px; 
+}
+/* display is flexed and the items are aligned to the center, justification is space between, the botton of the margin is 20px, background color of white, border radius is 10px, padding is set to 20px*/
+.article img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* image has a width of 100% with a border radius of 10px*/
+.article-text {
+  width: 45%;
+  text-align: left; 
+}
+/* the text has a width of 45% with text alignment of left*/
+.sponsors {
+    background-color: #d4c1cc;
+    border-radius: 10px; 
+    padding: 20px; 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  /* background color is pink with a border radius of 10px, padding of 20px, the top and bottom of the margin is set at 20px*/
+  .sponsors img {
+    width: 100px;
+    margin: 0 20px;
+    border-radius: 10px;
+  }
+  /*width is given 100px, margin is 0 for top and bottom and 20px for the left and right, border radius is 10px*/
+  .sponsors div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  /* display is flex with the justification and alignment centered, the margin is 20px top and bottom and 0 for left and right*/
+
+.directory {
+  margin-top: 20px;
+  background-color: #9d89a3;
+  border-radius: 10px; 
+  padding: 20px;
+}
+/* the top of the margin is given 20px, background color is purple, border radius is 10px with padding of 20px*/
+.directory details {
+  margin: 10px 0;
+  text-align: left;
+}
+/* the details have a margin of 20px top and bottom and 0 left and right, with left text alignment*/
+.directory summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+/*the weight of the font is boled and has a cursor of a pointer finger*/
+.directory ul {
+  padding-left: 20px;
+}
+/* padding is set for 20px on the left*/
+.directory li ul {
+  padding-left: 20px;
+}
+/* padding is set for 20px on the left*/
+footer {
+  padding: 20px 0;
+  margin-top: 20px;
+}
+/* the footer has a padding of 20px on the top and bottom, 0 for left and right, the top of the margin is set at 20px*/

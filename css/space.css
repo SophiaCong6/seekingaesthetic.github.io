@@ -1,0 +1,116 @@
+img {
+    border-radius: 10px;
+}
+/* border radius of 10px all around*/
+main {
+    padding: 20px;
+    text-align: center;
+}
+/* padding 20 px all around, text aligment is centered*/
+.section-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #d4c1cc;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* the top of the margin has 0px, bottom of the margin has 20px, color is set to white, background color is set to a light pink, padding 10px top and bottom and 20px left and right, border radius 10 px all around, display is inline block, width calc 100%-40px, left and right margins set to 20px*/
+.section-image {
+    width: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* width is auto, a max width of 100%, border radius is 10px all around, the bottom of the margin is 20px*/
+.section {
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+/*padding 40px top and bottom and 20px left and right, border 10px all around, the bottom of the margin is 30px*/
+#desk,
+#storage-lights-clutter {
+    background-color: #e6e4e4;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #d4c1cc;
+}
+/* background color is white with a padding of 20px all around, border radius of 10px all around with a border or 2px solid line as a light pink*/
+.section:nth-of-type(odd) {
+    background-color: #d4c1cc;
+}
+/*background color of a light pink*/
+.section-content {
+    margin-top: 30px;
+    text-align: left;
+    color: #000000;
+}
+/* the top of the margin is 30px, text alignment is left and the color is black*/
+.section-content.rounded {
+    margin-top: 30px;
+    text-align: left;
+    background-color: #d4c1cc;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* the top of the margin is 30px with the text alignment of left, background color is light pink, padding has 20px all around, and a borer radius of 10px all around*/
+.section-content h1,
+.section-content h2,
+.section-content h4 {
+    color: #613585;
+}
+/* color is purple*/
+.section-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+/* no list style, no padding, the bottom of the margin is set to 20px*/
+.section-content li {
+    margin-bottom: 10px;
+}
+/*the bottom of the margin is set to 10px*/
+.section-content li:before {
+    content: "•";
+    color: #613585;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+    list-style-position: inside;
+}
+/*the content is listed in bullet points with a color of purple, displayed in an inline block, width is 1em, right of the margin is 10px, list style is inside*/
+.section-content article {
+    margin-top: 20px;
+    text-align: justify;
+}
+/* the top margin is given 20px, text alignment is justified*/
+.section-content img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+/*displayed in block, margins are auto, max-width is 100%, height is autom the margin at the bottom is at 30px*/
+.section hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* the top and bottom of the margin is 20 px*/
+.clear {
+    clear: both;
+}
+/* floating elements are not allowed to float on both sides*/
+.section:not(:first-child) {
+    margin-top: 30px;
+}
+/* the top of the margin is 30px*/
+#storage-lights-clutter img:nth-of-type(2) {
+    margin-top: 20px;
+}
+/*the top of the margin is 20px*/

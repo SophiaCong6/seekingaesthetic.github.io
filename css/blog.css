@@ -1,0 +1,29 @@
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+/*this gives a margin with 0px ad a max-width of 800px. the padding is 20px*/
+.blog-post {
+  margin-bottom: 40px;
+}
+/*this gives the mottom margin 40px*/
+.blog-post h1 {
+  color: #9D4EDD;
+}
+/*the h1 is colored purple*/
+.blog-post .blog-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto; 
+  display: block; 
+  border-radius: 10px; 
+}
+/* the image is given a max width of 100%, auto height, a magin of 20px and the display in block with a border radius of 10px*/
+.blog-post p {
+  font-size: 16px; 
+  line-height: 1.6; 
+  color: #333;
+}
+/* the font size is 16px, line height is 1.6, and the color is black*/

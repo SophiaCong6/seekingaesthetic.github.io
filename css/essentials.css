@@ -1,0 +1,123 @@
+
+img {
+    border-radius: 10px;
+}
+/* the radius of the image is set to 10px*/
+main {
+    padding: 20px;
+    text-align: center;
+}
+/* the padding is 20px and the alignment is centerd*/
+.section-title {
+    margin-bottom: 0;
+    color: #ffffff;
+    background-color: #d4c1cc;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    display: inline-block;
+    width: calc(100% - 40px); 
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+/*margin bottoms is set to 0 and the color is white. Background color is set to pink, padding is 10px top and bottom while left and right is set to 20px, radius of the border is 10px, display is inline block, width is 100%-40pc and left and right margins are set to 20px*/
+
+.main-image {
+    display: block;
+    margin: 40px auto;
+    width: calc(100% - 40px);
+    max-width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+/* the diplay is formated in block, margins are given 40px auto, width is calculated 100%-40px, max width is 100%, height is given at 200px, the object fit is cover, and the boarder radius given is 10px*/
+
+.red-background {
+    background-color: #9d89a3 !important;
+}
+/* this gives a background color of purple*/
+
+.section {
+    padding: 40px 20px; 
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+/* padding is 40px top and bottom and 20px left and right, the border radius is 10px, and the margin on the bottom is set at 30px*/
+.section:nth-child(even) {
+    background-color: #f3f3f3;
+}
+/* gives this section a background color of white*/
+.section:nth-child(odd) {
+    background-color: #d4c1cc; 
+}
+/* this gives a background color of pink*/
+.section-content {
+    margin-top: 30px;
+    text-align: left;
+}
+/* this sections gives a margin on top of 10px and the text is left aligned*/
+.section-content h1 {
+    margin-bottom: 20px;
+    color: #613585;
+}
+/*gives a margin bottom of 20px and is colored purple*/
+.section-content h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: #613585;
+}
+/* the top margin is given 100px and the text alignment is center colored purple*/
+.section-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+/* there is no list style and no padding. The bottom margin is set with 20px*/
+.section-content li {
+    margin-bottom: 10px;
+}
+/* bottom margin is set with 10px*/
+.section-content li:before {
+    content: "•";
+    color: #613585;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+    list-style-position: inside;
+}
+/*lists the content with bullet points in a purple color and the display is inline block with a width of 1em. The right margin is given 10px and the list style position is inside*/
+.section-content article {
+    margin-top: 20px;
+    text-align: justify;
+}
+/* top margin is set at 20px and the alignment of text is justified*/
+.section-content h4 {
+    margin-top: 50px;
+    color: #613585;
+}
+/* the top of the margin is set at 50px and the color is set to purple*/
+.section-content h4 + p {
+    margin-top: 30px;
+}
+/* the top margin of this section is set at 30 px*/
+.section-content img {
+    display: block;
+    margin: auto;
+    max-width: 650px;
+    height: auto;
+    margin-bottom: 30px;
+}
+/* the display is set to block with an auto margin, max width given is 650ps, height is auto, and the bottom margin is set to 30px*/
+.section hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* the top margin is set at 20px and the bottom margin is set at 20 px*/
+.clear {
+    clear: both;
+}
+/* floating elements are not allowed to float on both sides*/
+.section:not(:first-child) {
+    margin-top: 30px;
+}
+/* the top margin is set to 30px*/

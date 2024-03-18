@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* margin and padding is set to 0 and the sizing of the box is calculated with border box*/
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #FAFAFA;
+  line-height: 1.6;
+}
+/* the font is set to arial, color is set to black, background color is white, and the height of the lines is 1.6*/
+header {
+  background-color: #8172af;
+  color: #FFFFFF;
+  padding: 20px 0;
+  text-align: center;
+}
+/* background color is set to purple, color of the text is white, padding is 20 top and bottom and 0 left and right, alignment is centered*/
+.logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+/* the logo has a max width of 100% and autmated height and a border radius of 50%*/
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+/* display is flexed with a center justification, margins 10px top and bottom, and 0 left and right*/
+.nav-button {
+  background-color: #613585;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 24px;
+  margin: 0 5px;
+  display: inline-block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 25px;
+  width: 150px;
+}
+/*background is purple, text color of white, no borderm badding of 12px top and bottom and 24px left and right, margin 0 top and bottm and 5px left and right, display is inlione block, cursor is a pointer finger,transitions 0.3, border radius is 25px, and width is 150px*/
+.nav-button:hover {
+  background-color: #d4c1cc;
+}
+/* color is pink*/
+.blog-title {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+/* font size is 24px, top of the margin is given 20px, and the color is white*/
+main {
+  padding: 20px;
+  text-align: center;
+}
+/* padding is 20px all around, center text alignment*/
+.blog-post {
+  margin-bottom: 40px;
+}
+/* bottom of the margin is set to 40px*/
+.blog-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+/*width is 100%, height is auto, margin top and bottom is 20px and left and right is 0, border radius is 10px all around*/
+footer {
+  background-color: #10002B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px 0;
+}
+/*bacground color is a dark purple, color of white, center alignment, padding 20px top and bottom and 0 left and right*/
+@media (max-width: 768px) {
+  .blog-image {
+    width: 100%;
+    height: auto;
+  }
+}
+/* width is 100% and height auto*/
